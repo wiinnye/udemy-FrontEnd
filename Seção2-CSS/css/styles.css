@@ -1,0 +1,124 @@
+/* 4  External */
+body{
+  padding-bottom: 500px;
+}
+
+h3{
+  color:green;
+}
+p{
+  /* color:blueviolet */
+}
+
+/* alguns comentarios: comentario no css */
+
+.paragraph {
+  background-color: #000;
+  color: aqua;
+  padding: 5px;
+}
+
+/* ids */
+#exclusive-title{
+  background-color: purple;
+  color: yellow;
+  padding: 10px;
+}
+
+/* multiplas regras */
+h2{
+  border-bottom: 2px solid red;
+}
+
+.titulo{
+border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+  border-bottom: 4px solid green;
+  }
+
+.color-name{
+ color:crimson 
+ }
+
+ /* Hex */
+.hex{
+  color: #55a398;
+}
+
+.hex-2{
+  color: #02aefc;
+}
+
+.simple-hex{
+  color:#a5f /* simplifica os numeros iguais #aa55ff, os deixando mais curtos  */
+}
+
+/* rgb */
+.rgb{
+  color:rgb(225,0,0);
+}
+.mixed-rgb{
+  color:rgb(199,21,47);
+}
+
+/* rgba */
+.rgba{
+  color:rgb(100,199,45,0.3);
+}
+
+/* HSL */
+.hsl{
+  color:hsl(100,20%,50%);
+}
+.hsl-2{
+  color:hsl(201,40%,69%);
+}
+
+/* bg */
+.bg{
+  background-color: #000;
+  color:yellow;
+}
+.bg-2{
+  background-color: rgb(200, 20, 40);
+  color: #00eaff;
+}
+
+/* Bg opacity */
+.bg-opacity{
+ background-color: green;
+ opacity: 0.2;
+}
+.bg-opacity-2{
+  background-color: #999;
+  color:#000;
+  opacity: 0.8;
+ }
+
+ /* rgba com opacidade */
+ .rgba-opacity{
+  background-color: rgba(90,120,20,0.2);
+  color:#000;
+ }
+
+  /* bg image*/
+.bg-image{
+ background-image: url("../img/nature.jpg");
+ padding: 10px;
+ color: #fff; 
+ }
+
+ /* centralizar a imagem de bg  */
+ .not-centered-bg,
+ .centered-bg{
+ width: 400px;
+ height: 400px;
+ background-image: url("../img/bridge.jpg");
+ }
+
+ .centered-bg{
+  background-position: center;
+  background-size: cover;
+ }
